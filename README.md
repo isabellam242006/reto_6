@@ -395,8 +395,7 @@ def calcular_menor_número(a, b, c, d, e):
     return menor
 
 
-#Raiz cúbica
-raiz_cubica = calcular_menor_número ** 1/3
+
 ```
 8. Para el punto anterior incluir las funciones en un archivo independiente e importarlas para su uso.
 
@@ -423,9 +422,7 @@ if __name__ == "__main__":
     menor = operaciones.calcular_menor_número(a,b,c,d,e)
     mayor_potencia_menor = mayor ** menor
     print(f"El resultado de elevar el mayor número al menor número es: {mayor_potencia_menor}")
-    raiz_cubica = menor ** 1/3
-    print(f"La raíz cúbica del menor número es {raiz_cubica}")
-```
+  ```
 
 9. Consultar qué es y cómo funciona pip en python.
     
