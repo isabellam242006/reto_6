@@ -235,7 +235,7 @@ def calcular_promedio_multiplicativo(a,b,c,d,e) -> float:
     return promedio_multiplicativo
 
 #Calcular orden ascendente
-def calcular_orden_ascendente(a: float, b: float, c: float, d: float, e: float) -> tuple:
+def calcular_orden_ascendente(a: float, b: float, c: float, d: float, e: float) -> float:
     primer_orden = a
     segundo_orden = b
     tercer_orden = c
@@ -295,7 +295,7 @@ def calcular_orden_ascendente(a: float, b: float, c: float, d: float, e: float) 
     return quinto_orden,cuarto_orden,tercer_orden,segundo_orden,primer_orden
 
 #Calcular orden descendente
-def calcular_orden_descendente(a: float, b: float, c: float, d: float, e: float) -> tuple:
+def calcular_orden_descendente(a: float, b: float, c: float, d: float, e: float) -> float:
     primer_orden = a
     segundo_orden = b
     tercer_orden = c
